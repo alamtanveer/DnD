@@ -1,0 +1,70 @@
+body{
+	margin: 0px;
+	padding: 0px;
+}
+.wrapper{
+	position: absolute;
+	width: 100%;
+	height: 100%;
+	background: #aaf1aa;
+}
+.drop{
+	position: relative;
+	width: 180px;
+	height: 100px;
+	margin: 10px;
+	display: inline-block;
+}
+.droppe{
+	width: 50%;
+    height: 100%;
+    background: #f9fff9;
+    box-shadow: 2px 2px 2px #80d280;
+    display: inline-block;
+}
+.dropText{
+	display: inline-block;
+	position: absolute;
+	top: 0px;
+	background: #2a64bd;
+	margin: auto;
+	bottom: 0px;
+	height: auto;
+	width: 50%;
+	padding: 42px 10px;
+	color: white;
+	box-sizing: border-box;
+	text-align: center;
+}
+.droppables{
+	width: 450px;
+	display: inline-block;
+}
+
+.draggables{
+	width: 400px;
+	display: inline-block;
+}
+.drag{
+	position: relative;
+    width: 180px;
+    height: 100px;
+    margin: 10px;
+    display: inline-block;
+}
+.dragged{
+	width: 50%;
+	height: 100%;
+	background-repeat: no-repeat;
+    background-size: contain;
+}
+#btnSubmit, #reset {
+	padding: 10px;
+    background: red;
+    color: white;
+    display: inline-block;
+    cursor: pointer;
+    font-family: calibri;
+    border-radius: 5px;
+    margin-left: 10px;
+}
